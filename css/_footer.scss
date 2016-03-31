@@ -1,0 +1,56 @@
+.footer {
+	background-color: $blue;
+	float: left;
+	width: 100%;
+	color: white;
+	padding: 30px 0;
+	.left {
+		@include breakpoint('md') {
+			text-align: center;
+			.pull-left {
+				float: none!important;
+			}
+			a {
+				display: inline-block!important;
+				float: none!important;
+			}
+		}
+
+	}
+	.right {
+		@include breakpoint('md') {
+			text-align: center;
+			margin-top: 10px;
+			.pull-right {
+				float: none!important;
+			}
+		}
+	}
+  		
+	.footer-logos {
+		a {
+			float: left;
+			display: block;
+		}
+		svg {
+			margin: 0 10px;
+			width: 30px;
+			height: auto;
+			fill: white;
+			&:hover {
+				path {
+					fill: $light-blue;
+				}
+			}
+		}
+	}
+	.email {
+		color: white;
+		padding: 5px 0;
+		display: block;
+		&:hover {
+			color: $light-blue;
+			text-decoration: none;
+		}
+	}
+}

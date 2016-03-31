@@ -1,0 +1,13 @@
+.header {
+	background-color: $blue;
+	padding:  1% 0;
+	.site-title {
+		font-size: 1.25em;
+		a {
+			color: white;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

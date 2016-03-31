@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* Variables */
+@import 'variables';
+@import 'vendor';
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	color: $dark-grey;
+	transition: all 0.5s ease;
+}
+
+/* Custom */
+@import 'mixins';
+@import 'flow';
+@import 'header';
+@import 'front-page';
+@import 'footer';
+
+/* Vendor */
+@import 'normalize';

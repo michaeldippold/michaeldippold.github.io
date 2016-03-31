@@ -1,0 +1,119 @@
+.callout {
+	padding: 4% 0 6% 0;
+	background-color: $blue;
+	margin-bottom: 3%;
+	.text {
+		span {
+			color: white;
+			text-shadow: 
+
+			// -10px 1px 0px rgba(36, 115, 199, 1), 
+			// -1px 10px 0px rgba(36, 115, 199, 1),
+			// -10px 10px 0px rgba(36, 115, 199, 1);
+
+			// -8px 1px 0px rgba(128, 204, 255, 1), 
+			// -1px 8px 0px rgba(128, 204, 255, 1),
+			// -8px 8px 0px rgba(128, 204, 255, 1);
+
+			-0 0.005em darken($blue, 10%), 
+			-0.005em 0 darken($blue, 10%), 
+			-0.005em 0.01em darken($blue, 10%), 
+			-0.01em 0.005em darken($blue, 10%), 
+			-0.01em 0.015em darken($blue, 10%), 
+			-0.015em 0.01em darken($blue, 10%), 
+			-0.015em 0.02em darken($blue, 10%), 
+			-0.02em 0.015em darken($blue, 10%), 
+			-0.02em 0.025em darken($blue, 10%), 
+			-0.025em 0.02em darken($blue, 10%), 
+			-0.025em 0.03em darken($blue, 10%), 
+			-0.03em 0.025em darken($blue, 10%), 
+			-0.03em 0.035em darken($blue, 10%), 
+			-0.035em 0.03em darken($blue, 10%), 
+			-0.035em 0.04em darken($blue, 10%), 
+			-0.04em 0.035em darken($blue, 10%), 
+			-0.04em 0.045em darken($blue, 10%), 
+			-0.045em 0.04em darken($blue, 10%), 
+			-0.045em 0.05em darken($blue, 10%), 
+			-0.05em 0.045em darken($blue, 10%), 
+			-0.05em 0.055em darken($blue, 10%), 
+			-0.055em 0.05em darken($blue, 10%), 
+			-0.055em 0.06em darken($blue, 10%), 
+			-0.06em 0.055em darken($blue, 10%), 
+			-0.06em 0.065em darken($blue, 10%), 
+			-0.065em 0.06em darken($blue, 10%), 
+			-0.065em 0.07em darken($blue, 10%), 
+			-0.07em 0.065em darken($blue, 10%), 
+			-0.07em 0.075em darken($blue, 10%), 
+			-0.075em 0.07em darken($blue, 10%), 
+			-0.075em 0.08em darken($blue, 10%), 
+			-0.08em 0.075em darken($blue, 10%), 
+			-0.08em 0.085em darken($blue, 10%), 
+			-0.085em 0.08em darken($blue, 10%), 
+			-0.085em 0.09em darken($blue, 10%), 
+			-0.09em 0.085em darken($blue, 10%), 
+			-0.09em 0.095em darken($blue, 10%), 
+			-0.095em 0.09em darken($blue, 10%), 
+			-0.095em 0.1em darken($blue, 10%), 
+			-0.1em 0.095em darken($blue, 10%), 
+			-0.1em 0.105em darken($blue, 10%), 
+			-0.105em 0.1em darken($blue, 10%), 
+			-0.105em 0.11em darken($blue, 10%), 
+			-0.11em 0.105em darken($blue, 10%);
+
+			font-size: 12em;
+			text-transform: uppercase;
+			line-height: 0.75;
+			font-weight: 800;
+			display: block;
+			margin-bottom: 8%;
+			letter-spacing: 2px;
+		}
+		h2 {
+			color: white;
+			font-size: 6em;
+			font-weight: 800;
+			text-transform: uppercase;
+			line-height: 0.95;
+			letter-spacing: -2px;
+ 		    -webkit-animation-delay: 1.25s;
+    		animation-delay: 1.25s;
+			a {
+				color: $light-blue;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.about {
+	.left {
+		img {
+			width: 100%;
+		}
+	}
+	.right {
+		h3 {
+			color: $blue;
+		  	font-size: 3em;
+		  	text-transform: uppercase;
+		  	line-height: 0.75;
+		  	font-weight: 800;
+		  	display: block;
+		  	margin-bottom: 30px;
+		}
+		a {
+			color: $blue;
+			&:hover {
+				text-decoration: none;
+				color: $light-blue;
+			}
+		}
+		ul {
+			padding-left: 40px;
+			li {
+				font-size: 1.4em;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
